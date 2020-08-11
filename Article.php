@@ -17,7 +17,7 @@ class Article extends MX_Controller {
 	}
 	public function addArticle()
 	{	
-// 		text
+// 		text222
 		$this->load->view('add_article_view',$this->PAGE);
 	}
 	public function editArticle($article_id)
